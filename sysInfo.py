@@ -33,6 +33,7 @@ def sysInfo():
         sys.stdout=open(f"/home/{user}/Desktop/sysInfo.txt","w")
         print(f"OS name: {a}",f"System: {b}",f"System version: {c}",f"Architecture: {d}",f"System name: {e}",sep='\n')
         sys.stdout.close() 
-
-    
-sysInfo()
+        
+  
+if __name__ == "__main__": 
+    sysInfo()
