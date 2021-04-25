@@ -7,7 +7,7 @@ import os
 import platform
 import sys
 
-def sysInfo():
+def sys_info():
 
     user=os.getlogin()
     a=os.name
@@ -36,4 +36,4 @@ def sysInfo():
         
   
 if __name__ == "__main__": 
-    sysInfo()
+    sys_info()
